@@ -9,8 +9,8 @@
 
 		/**
 		 * Compares the current object and another one.
-		 * @param Equalable $o Object to compare with.
+		 * @param mixed $o Object to compare with.
 		 * @return bool `true` if objects are equal.
 		 */
-		public function equals(Equalable $o): bool;
+		public function equals($o): bool;
 	}
